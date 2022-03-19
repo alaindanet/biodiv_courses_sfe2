@@ -1,0 +1,211 @@
+---
+title: "Crise de la biodiversité"
+subtitle: "01 - Les causes"  
+author: 
+  - "SFE²"
+  - "Groupe Agir contre la crise écologique"
+date: '`r Sys.Date()`'
+output:
+  xaringan::moon_reader:
+    css: xaringan-themer.css
+    nature:
+      slideNumberFormat: "%current%"
+      highlightStyle: github
+      highlightLines: true
+      ratio: 16:9
+      countIncrementalSlides: true
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+knitr::opts_chunk$set(
+  fig.width=9, fig.height=3.5, fig.retina=3,
+  out.width = "100%",
+  cache = FALSE,
+  echo = TRUE,
+  message = FALSE, 
+  warning = FALSE,
+  hiline = TRUE
+)
+```
+
+```{r xaringan-themer, include=FALSE, warning=FALSE}
+library(xaringanthemer)
+style_duo_accent(
+  primary_color = "#1381B0",
+  secondary_color = "#FF961C",
+  inverse_header_color = "#FFFFFF"
+)
+```
+
+## Plan
+
+1. IPBES: le GIEC de la biodiversité
+1. Qu'est-ce que la biodiversité?
+1. Les crises passées
+1. La crise actuelle
+1. Quels sont les facteurs ? 
+1. Modèles et projections
+
+
+---
+name: colors
+
+# IPBES: le GIEC de la biodiversité
+
+
+.pull-left[
+
+![](https://ipbes.net/themes/custom/ipbes/logo.svg)
+
+Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Services
+
+]
+
+
+Créé en avril 2012, l'[IPBES](https://ipbes.net/) fait partie du Programme Environnement des Nations Unis, comme le GIEC, mais aussi de l'UNESCO et de la FAO. Elle est composée de 139 pays membres.
+L'IPBES synthétise la littérature scientifique sur les tendances de biodiversité et les facteurs qui les déterminent. Elle synthétise également les contributions bénéfiques de la nature aux humains.
+
+- 2019: Premier rapport
+- 2021: Rapport joint IPBES/GIEC sur la biodiversité et le changement climatique
+
+---
+
+# Processus d'évaluation
+
+.pull-left[
+
+![](https://ipbes.net/sites/default/files/assessment_stage_04_full_plain_plain.png)
+
+]
+
+- 1000 experts à travers le monde
+- Relecture par des pairs extérieurs
+- Le résumé aux décideurs est co-écrit avec les représentants de gouvernement et
+de la société civile (scientifiques, experts, "practioners") [En savoir plus](https://ipbes.net/sites/default/files/downloads/Decision_IPBES_3_4_EN_0.pdf)
+
+---
+class: center middle
+
+# La biodiversité: c'est quoi ?
+
+---
+
+.pull-left[
+
+![Échelles de la biodiversité](http://www.biodiversitybc.org/assets/Taking~Natures~Pulse/figure-2.png)
+
+]
+
+
+### Définition 
+
+> Ensemble de la diversité de la vie sur Terre. Elle inclue la diversité des organismes, 
+populations, espèces, ainsi que leur diversité génétique. 
+> Elle inclue également la diversité de leurs assemblages complexe à l'échelle des communautés et des écosystèmes.
+
+
+---
+# Des chiffres et des cartes
+
+.pull-left[
+
+![Nombre d'espèces et diversification](https://royalsocietypublishing.org/cms/asset/068438dd-5a76-4ff8-95b0-22e9358c6ff0/rspb20161334f01.jpg)
+
+]
+
+- À l'echelle globale, on rapporte souvent la biodiversité au nombre d'espèces
+- On a décrit XX milions d'espèces sur Terre et on estime qu'il en existe XXX millions.
+
+---
+# Une diversité inégalement répartie géographiquement
+
+
+.pull-left[
+![Nombre d'espèces des vertébrés terrestres](https://storage.googleapis.com/plos-corpus-prod/10.1371/journal.pbio.1001294/1/pbio.1001294.g001.PNG)
+]
+
+- Le nombre d'espèces est maximal dans les zones intertropicales et diminue quand on s'éloigne vers les poles
+- Facteurs historiques: dérive des continents, période de glaciations,
+- Facteurs climatiques: température et précipitation
+- Facteurs anthropogéniques: Chasse, destructions d'habitat, etc...
+
+---
+# Les dynamiques de biodiversité
+
+- Équilibre entre apparition et extinction locale
+
+
+---
+class: center middle
+
+# Les crises passées
+
+---
+
+# Les grandes extinctions de masse
+
+- Cinq grandes extinctions de masses
+
+---
+class: center middle
+
+# La crise actuelle
+
+---
+# Une extinction de masse en cours
+
+- Taux d'extinction 1000 fois supérieur à celle des crises passées
+- 25% des espèces de vertébrés sont en risque d'extinction
+
+---
+class: center middle
+
+# Les causes de la crise de la biodiversité
+
+---
+.pull-left[
+## Cause de la crise de la biodiversité
+
+1. Changements d'usage des sols
+1. Sur-exploitation des ressources
+1. Changement climatique
+1. Invasion d'espèces exotiques
+
+]
+
+---
+# Les extinctions secondaires
+
+
+- Cascades trophiques
+- Espèces clés de voûte
+
+???
+La force et la distribution des interactions entre espèces
+
+---
+# Conséquences à l'échelle des écosystèmes
+
+1. Pestes (cause: non régulation des populations)
+2. Instabilité (hypoghèse d'assurance)
+3. Fonctionnement dégradé (hypothèse de complémentarité + régulation des pop (yellowstone))
+
+---
+
+class: center middle
+
+# Scénarios et projections
+
+---
+
+class: center, middle
+
+# Thanks!
+
+Slides created via the R packages:
+
+[**xaringan**](https://github.com/yihui/xaringan)<br>
+[gadenbuie/xaringanthemer](https://github.com/gadenbuie/xaringanthemer)
+
+The chakra comes from [remark.js](https://remarkjs.com), [**knitr**](http://yihui.name/knitr), and [R Markdown](https://rmarkdown.rstudio.com).
