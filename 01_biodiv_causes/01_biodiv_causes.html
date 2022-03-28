@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta name="author" content="SFE²" />
     <meta name="author" content="Groupe Agir contre la crise écologique" />
-    <meta name="date" content="2022-03-19" />
+    <meta name="date" content="2022-03-26" />
     <script src="01_biodiv_causes_files/header-attrs/header-attrs.js"></script>
     <link rel="stylesheet" href="xaringan-themer.css" type="text/css" />
   </head>
@@ -17,13 +17,27 @@ class: center, middle, inverse, title-slide
 ## 01 - Les causes
 ### SFE²
 ### Groupe Agir contre la crise écologique
-### 2022-03-19
+### 2022-03-26
 
 ---
 
 
 
 
+
+
+
+```r
+library(RefManageR)
+library(bibtex)
+BibOptions(
+  check.entries = FALSE,
+  bib.style = "authoryear",
+  style = "markdown",
+  dashed = TRUE)
+bib_file &lt;- here("01_biodiv_crisis", "bibliography.bib")
+bib &lt;- ReadBib(bib_file)
+```
 
 
 ## Plan
@@ -116,7 +130,7 @@ populations, espèces, ainsi que leur diversité génétique.
 - Le nombre d'espèces est maximal dans les zones intertropicales et diminue quand on s'éloigne vers les poles
 - Facteurs historiques: dérive des continents, période de glaciations,
 - Facteurs climatiques: température et précipitation
-- Facteurs anthropogéniques: Chasse, destructions d'habitat, etc...
+- Facteurs anthropogéniques: Chasse, changements d'utilisation des sols, etc...
 
 ---
 # Les dynamiques de biodiversité
@@ -143,7 +157,7 @@ class: center middle
 ---
 # Une extinction de masse en cours
 
-- Taux d'extinction 1000 fois supérieur à celle des crises passées
+- Taux d'extinction 100 fois supérieur à celle des crises passées
 - 25% des espèces de vertébrés sont en risque d'extinction
 
 ---
@@ -160,14 +174,103 @@ class: center middle
 1. Changement climatique
 1. Invasion d'espèces exotiques
 
+Source: [IPBES](https://ipbes.net/sites/default/files/2020-02/ipbes_global_assessment_report_summary_for_policymakers_fr.pdf)
+
 ]
+
+--
+
+### Ecosystèmes terrestres 
+
+- Plus d'un tiers de la superficie terrestre est utilisée pour la culture et
+  l'élevage 
+- Doublement des surfaces urbanisées depuis 1992
+- Destruction des forêts tropicales primaires, des zones humides et des prairies
+
+--
+
+### Ecosystèmes d'eau douce 
+
+- Changements d'utilisation des terres
+- Extraction de l'eau, exploitation, pollution, changements climatiques, espèces
+  envahissantes
+
+--
+
+### Ecosystèmes marins 
+
+- Surexploitation des poissons, crustacés, etc...
+- Pollution d'origine terrestre et fluvial
+- Changements d'utilisation des zones littorales: développement d'infrastructures
+  et de l'aquaculture
+
+
+---
+.pull-left[
+## Cause de la crise de la biodiversité
+
+1. Changements d'usage des sols
+1. Sur-exploitation des ressources
+1. Changement climatique
+1. Invasion d'espèces exotiques
+
+Source: [IPBES](https://ipbes.net/sites/default/files/2020-02/ipbes_global_assessment_report_summary_for_policymakers_fr.pdf)
+
+]
+
+### Effet direct du changement climatique
+
+- +0.2°C par décade depuis 30 ans
+- Changement de la distribution des espèces
+- La phénologie
+- Dynamique des populations
+- Structure des communautés
+- Fonctionnement des écosystèmes
+
+--
+
+### Introduction d'espèces exotiques 
+
+- + 40% depuis 1980  
+- 20% de la surface terrestre est menacé par les effets négatifs des espèces
+  exotiques sur les espèces endémiques
+
+---
+
+## Principales causes des pertes de biodiversité
+
+- Changements d'usage des sols et pertes d'habitats associées 
+- Surexploitation des ressources
+
+---
+
+### Conversion et dégradation des habitats
+
+- Les écosystèmes les plus dégradés contiennent 76% d'espèces de moins, 39%
+  d'individus 
+- En moyenne, ils ont 13% d'espèces de moins et 10% moins d'individus
+
+.flush_right[
+![](https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fnature14324/MediaObjects/41586_2015_BFnature14324_Fig1_HTML.jpg)
+]
+
+
+.footnote[[Newbold, Hudson, Hill, et al. (2015)](https://www.nature.com/articles/nature14324)]
+
+
+???
+- Comparaisons spatiales
+-  
 
 ---
 # Les extinctions secondaires
 
+
 - Cascades trophiques
 - Espèces clés de voûte
 
+???
+La force et la distribution des interactions entre espèces
 
 ---
 # Conséquences à l'échelle des écosystèmes
